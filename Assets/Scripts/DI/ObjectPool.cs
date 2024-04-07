@@ -57,6 +57,7 @@ namespace Core
                 {
                     obj = _inactive[_inactive.Count - 1];
                     _inactive.RemoveAt(_inactive.Count - 1);
+                    obj.transform.SetParent(container);
                 }
 
                 obj.transform.position = pos;

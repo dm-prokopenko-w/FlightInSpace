@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Game;
@@ -62,7 +61,7 @@ namespace AsteroidsSystem
         {
             var posY = Screen.height + 300;
             var startPosY = Camera.main.ScreenToWorldPoint(new Vector2(0, posY)).y;
-            var endPosY = Camera.main.ScreenToWorldPoint(new Vector2(0, - posY / 2)).y;
+            var endPosY = Camera.main.ScreenToWorldPoint(new Vector2(0, - 300f)).y;
 
             var minPosX = Camera.main.ScreenToWorldPoint(new Vector2(0, posY)).x;
             var maxPosX = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, posY)).x;
@@ -97,6 +96,7 @@ namespace AsteroidsSystem
         
         private void Despawn(Asteroid asteroid)
         {
+            _activeAsteroids.Remove(asteroid);
             _pool.Despawn(asteroid);
         }
 

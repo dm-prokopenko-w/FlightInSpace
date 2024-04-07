@@ -33,9 +33,6 @@ namespace ShipSystem
             OnСollision?.Invoke();
         }
 
-        public void RestartGame()
-        {
-            _explosion.Restart();
-        }
+        public void RestartGame() => _explosion.Restart();
     }
 }

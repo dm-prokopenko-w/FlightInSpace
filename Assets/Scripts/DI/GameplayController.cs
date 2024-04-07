@@ -1,10 +1,11 @@
 using System;
 using Game;
 using UISystem;
-using UnityEngine.Device;
+using UnityEngine;
 using UnityEngine.Serialization;
 using VContainer;
 using VContainer.Unity;
+using Application = UnityEngine.Device.Application;
 
 namespace GameplaySystem
 {
