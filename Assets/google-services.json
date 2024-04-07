@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "875073071817",
+    "project_id": "flightinspace-e1af9",
+    "storage_bucket": "flightinspace-e1af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875073071817:android:da5ed729ee64817adcbb18",
+        "android_client_info": {
+          "package_name": "com.DmytroProkopenko.FlightInSpace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs_Xv8zUtJqwvKFHnz_9N-PTrqVudZNbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
